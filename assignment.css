@@ -1,0 +1,96 @@
+body {
+    border: 2px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: navy;
+
+}
+/* a:link{
+    color: #000;
+    text-decoration: none;
+ }
+
+a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+/* .logo a:hover {
+    text-decoration: none;
+} */
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 70px;
+    background-color: ghostwhite;
+    padding: 30px;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+
+}
+.profile {
+    background-image: linear-gradient(120deg, gainsboro, white);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.details {
+    margin-left: 80px;
+}
+
+.date {
+    margin-right: 50px;
+}
+
+.type {
+    margin-right: 50px;
+}
+
+.receipt{
+    display: flex;
+    flex-direction: column;
+}
+
+.download{
+    border: 2px dotted teal;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.download:hover{
+    background-color: white;
+    color:  navy;
+}
+
+.visa{
+    width: 60px;
+    height: 60px;
+}
